@@ -7,3 +7,9 @@
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .place__paragraph {
+    margin: 0 0 26px;
+  }
+}

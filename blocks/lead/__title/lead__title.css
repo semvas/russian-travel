@@ -5,4 +5,20 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 700px) {
+  .lead__title {
+    max-width: 90%;
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }

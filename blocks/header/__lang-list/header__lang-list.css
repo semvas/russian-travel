@@ -1,14 +1,14 @@
-.list-order {
+.header__lang-list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 
-.list-order li {
+.header__lang-list li {
   margin-right: 18px;
 }
 
-.list-order li:last-of-type {
+.header__lang-list li:last-of-type {
   margin-right: 0;
 }
