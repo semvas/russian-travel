@@ -5,16 +5,9 @@
   display: flex;
 }
 
-.footer__links li {
-  margin-right: 18px;
-}
-
-.footer__links li:last-of-type {
-  margin-right: 0;
-}
-
 @media screen and (max-width: 700px) {
   .footer__links {
     flex-direction: column;
+    align-items: flex-start;
   }
 }

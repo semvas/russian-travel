@@ -1,10 +1,10 @@
-.header__lang-list {
+.header__lang-link {
   font-size: 24px;
   line-height: 1.25;
 }
 
 @media screen and (max-width: 425px) {
-  .header__lang-list {
+  .header__lang-link {
     font-size: 18px;
     line-height: 1.11;
   }

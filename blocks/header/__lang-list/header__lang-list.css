@@ -4,11 +4,3 @@
   list-style: none;
   display: flex;
 }
-
-.header__lang-list li {
-  margin-right: 18px;
-}
-
-.header__lang-list li:last-of-type {
-  margin-right: 0;
-}
